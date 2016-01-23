@@ -1,0 +1,18 @@
+{
+  "name": "water-pi",
+  "version": "0.0.1",
+  "description": "Houseplant Watering Automation and Monitoring System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Demirhan Aydin <demirhanaydin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "raspi-io": "latest",
+    "johnny-five": "latest",
+    "node-dht-sensor": "latest",
+    "aws-iot-device-sdk": "latest",
+    "onoff": "latest"
+  }
+}
